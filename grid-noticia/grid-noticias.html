@@ -13,12 +13,9 @@
 <body>
     <section class="vitrine">
         <div class="container">
-            <!-- ==================== INÍCIO GRID NOTÍCIAS ==================== -->
-            <div class="grid-noticias">
-
-
-                <!-- ==================== SEÇÃO VITRINE PRINCIPAL ==================== -->
-                <div class="vitrine-principal">
+            <div class="grid-noticia-pai">
+                <!-- div1 - Notícia Principal -->
+                <div class="noticia-principal">
                     <article class="box-vitrine-principal">
                         <div class="efeito-shadow"></div>
                         <a
@@ -32,7 +29,8 @@
                         </a>
                     </article>
 
-                    <div class="lista-noticias">
+                    <!-- Vitrine Relacionadas -->
+                    <div class="vitrine-relacionadas">
                         <ul>
                             <li>
                                 <a href="https://www.agenciabrasilia.df.gov.br/2025/01/31/publicada-data-da-licitacao-para-a-construcao-do-terminal-da-asa-norte/">
@@ -43,8 +41,7 @@
                     </div>
                 </div>
 
-
-                <!-- ==================== SEÇÃO VITRINE SECUNDÁRIA ==================== -->
+                <!-- div2 - Notícias Secundárias -->
                 <div class="vitrine-secundaria">
                     <article class="box-vitrine-secundaria">
                         <a
@@ -112,99 +109,85 @@
                     </article>
                 </div>
 
+                <!-- div3 - Banner/Publicidade -->
+                <div class="publicidade-agencia">
+                    <hr>
+                    <a href="https://www.agenciabrasilia.df.gov.br/2024/04/23/secom-do-gdf-tem-novo-e-mail-para-atendimento-a-imprensa/"
+                        target="_blank" alt="Novo email atendimento imprensa">
+                        <div class="img-desktop">
+                            <img src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2024/04/Banner_Agencia_Brasilia-IMPRENSA_950x200.png"
+                                title="Novo email atendimento imprensa">
+                        </div>
+                    </a>
+                </div>
 
-                <!-- ==================== SEÇÃO CARDS ESPECIAIS ==================== -->
-                <div class="cards-especiais">
-                    <div class="publicidade-agencia">
+                <!-- div4 - Sidebar -->
+                <div class="side-noticias">
+                    <!-- Módulo 01 - Especial -->
+                    <div class="modulo-01">
+                        <h2>Especial</h2>
                         <hr>
-                        <a href="https://www.agenciabrasilia.df.gov.br/2024/04/23/secom-do-gdf-tem-novo-e-mail-para-atendimento-a-imprensa/"
-                            target="_blank" alt="Novo email atendimento imprensa">
-                            <div class="img-desktop">
-                                <img src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2024/04/Banner_Agencia_Brasilia-IMPRENSA_950x200.png"
-                                    title="Novo email atendimento imprensa">
-                            </div>
+                        <a
+                            href="https://www.agenciabrasilia.df.gov.br/2025/01/31/nova-serie-de-reportagens-mostra-como-obras-e-acoes-deste-gdf-transformaram-a-vida-da-populacao-da-capital/">
+                            <img width="400" height="200"
+                                src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2025/01/WhatsApp-Image-2025-01-31-at-18.42.04-400x200.jpeg"
+                                alt="" class="attachment-img-4x2-thumb size-img-4x2-thumb wp-post-image">
+                            <p>Nova série de reportagens mostra como obras e ações deste GDF transformaram a vida da
+                                população da capital</p>
                         </a>
                     </div>
-                </div>
 
+                    <!-- Módulo 02 - Cultura -->
+                    <div class="modulo-02">
+                        <h2>Cultura</h2>
+                        <hr>
+                        <a
+                            href="https://www.agenciabrasilia.df.gov.br/2025/01/31/oficinas-gratuitas-exposicao-de-quadrinhos-circo-e-capoeira-agitam-a-programacao-do-fim-de-semana/">
+                            <img width="400" height="200"
+                                src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2025/01/WhatsApp-Image-2025-01-30-at-15.24.03-400x200.jpeg"
+                                alt="" class="attachment-img-4x2-thumb size-img-4x2-thumb wp-post-image">
+                            <p>Oficinas gratuitas, exposição de quadrinhos, circo e capoeira agitam o fim de semana</p>
+                        </a>
+                        <li><a href="https://www.agenciabrasilia.df.gov.br/2025/01/31/orquestra-sinfonica-retorna-a-sala-martins-pena-do-teatro-nacional-quinta-feira/"
+                                class="links-relacionadas">Orquestra Sinfônica retorna à Sala Martins Pena do Teatro
+                                Nacional quinta-feira</a></li>
+                    </div>
 
-                <!-- ==================== SEÇÃO NOTÍCIAS DESTAQUE ==================== -->
-                <div class="noticias-destaque">
-                    <div class="side-noticias">
-                        <!-- Módulo 01 - Especial -->
-                        <div class="modulo-01">
-                            <h2>Especial</h2>
-                            <hr>
-                            <a
-                                href="https://www.agenciabrasilia.df.gov.br/2025/01/31/nova-serie-de-reportagens-mostra-como-obras-e-acoes-deste-gdf-transformaram-a-vida-da-populacao-da-capital/">
-                                <img width="400" height="200"
-                                    src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2025/01/WhatsApp-Image-2025-01-31-at-18.42.04-400x200.jpeg"
-                                    alt="" class="attachment-img-4x2-thumb size-img-4x2-thumb wp-post-image">
-                                <p>Nova série de reportagens mostra como obras e ações deste GDF transformaram a vida da
-                                    população da capital</p>
-                            </a>
-                        </div>
+                    <!-- Módulo 03 - Saúde -->
+                    <div class="modulo-03">
+                        <h2>Saúde</h2>
+                        <hr>
+                        <a
+                            href="https://www.agenciabrasilia.df.gov.br/2025/01/31/referencia-em-cirurgias-bariatricas-hran-tera-unidade-especial-para-ampliar-atendimento/">
+                            <img width="400" height="200"
+                                src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2025/01/Cirurgia-bariatrica-no-Hran.-Foto-Jhonatan-Cantarelle-Agencia-Saude-DF-1-400x200.jpg"
+                                alt="" class="attachment-img-4x2-thumb size-img-4x2-thumb wp-post-image">
+                            <p>Referência em cirurgias bariátricas, Hran terá unidade especial para ampliar atendimento
+                            </p>
+                        </a>
+                        <li><a href="https://www.agenciabrasilia.df.gov.br/2025/01/31/app-desenvolvido-no-df-oferece-dicas-de-cuidado-para-criancas-com-cancer/"
+                                class="links-relacionadas">App desenvolvido no DF oferece dicas de cuidado para crianças
+                                com câncer</a></li>
+                    </div>
 
-                        <!-- Módulo 02 - Cultura -->
-                        <div class="modulo-02">
-                            <h2>Cultura</h2>
-                            <hr>
-                            <a
-                                href="https://www.agenciabrasilia.df.gov.br/2025/01/31/oficinas-gratuitas-exposicao-de-quadrinhos-circo-e-capoeira-agitam-a-programacao-do-fim-de-semana/">
-                                <img width="400" height="200"
-                                    src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2025/01/WhatsApp-Image-2025-01-30-at-15.24.03-400x200.jpeg"
-                                    alt="" class="attachment-img-4x2-thumb size-img-4x2-thumb wp-post-image">
-                                <p>Oficinas gratuitas, exposição de quadrinhos, circo e capoeira agitam o fim de semana</p>
-                            </a>
-                            <li><a href="https://www.agenciabrasilia.df.gov.br/2025/01/31/orquestra-sinfonica-retorna-a-sala-martins-pena-do-teatro-nacional-quinta-feira/"
-                                    class="links-relacionadas">Orquestra Sinfônica retorna à Sala Martins Pena do Teatro
-                                    Nacional quinta-feira</a></li>
-                        </div>
-
-                        <!-- Módulo 03 - Saúde -->
-                        <div class="modulo-03">
-                            <h2>Saúde</h2>
-                            <hr>
-                            <a
-                                href="https://www.agenciabrasilia.df.gov.br/2025/01/31/referencia-em-cirurgias-bariatricas-hran-tera-unidade-especial-para-ampliar-atendimento/">
-                                <img width="400" height="200"
-                                    src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2025/01/Cirurgia-bariatrica-no-Hran.-Foto-Jhonatan-Cantarelle-Agencia-Saude-DF-1-400x200.jpg"
-                                    alt="" class="attachment-img-4x2-thumb size-img-4x2-thumb wp-post-image">
-                                <p>Referência em cirurgias bariátricas, Hran terá unidade especial para ampliar atendimento
-                                </p>
-                            </a>
-                            <li><a href="https://www.agenciabrasilia.df.gov.br/2025/01/31/app-desenvolvido-no-df-oferece-dicas-de-cuidado-para-criancas-com-cancer/"
-                                    class="links-relacionadas">App desenvolvido no DF oferece dicas de cuidado para crianças
-                                    com câncer</a></li>
-                        </div>
-
-                        <!-- Módulo 04 - Pelo DF -->
-                        <div class="modulo-04">
-                            <h2>Pelo DF</h2>
-                            <hr>
-                            <a
-                                href="https://www.agenciabrasilia.df.gov.br/2025/02/01/curso-gratuito-de-defesa-pessoal-garante-protecao-e-empoderamento-a-mulheres-em-situacao-de-vulnerabilidade/">
-                                <img width="400" height="200"
-                                    src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2025/01/CAPA-51-400x200.jpg"
-                                    alt="" class="attachment-img-4x2-thumb size-img-4x2-thumb wp-post-image">
-                                <p>Curso gratuito de defesa pessoal garante proteção a mulheres em situação de
-                                    vulnerabilidade</p>
-                            </a>
-                            <li><a href="https://www.agenciabrasilia.df.gov.br/2025/01/31/transito-no-df-sofrera-alteracoes-neste-sabado-1-2-para-a-corrida-de-reis/"
-                                    class="links-relacionadas">Trânsito no DF sofrerá alterações neste sábado (1°/2) para a
-                                    Corrida de Reis</a></li>
-                        </div>
+                    <!-- Módulo 04 - Pelo DF -->
+                    <div class="modulo-04">
+                        <h2>Pelo DF</h2>
+                        <hr>
+                        <a
+                            href="https://www.agenciabrasilia.df.gov.br/2025/02/01/curso-gratuito-de-defesa-pessoal-garante-protecao-e-empoderamento-a-mulheres-em-situacao-de-vulnerabilidade/">
+                            <img width="400" height="200"
+                                src="https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2025/01/CAPA-51-400x200.jpg"
+                                alt="" class="attachment-img-4x2-thumb size-img-4x2-thumb wp-post-image">
+                            <p>Curso gratuito de defesa pessoal garante proteção a mulheres em situação de
+                                vulnerabilidade</p>
+                        </a>
+                        <li><a href="https://www.agenciabrasilia.df.gov.br/2025/01/31/transito-no-df-sofrera-alteracoes-neste-sabado-1-2-para-a-corrida-de-reis/"
+                                class="links-relacionadas">Trânsito no DF sofrerá alterações neste sábado (1°/2) para a
+                                Corrida de Reis</a></li>
                     </div>
                 </div>
-
-
-                <!-- ==================== SEÇÃO ÚLTIMAS NOTÍCIAS ==================== -->
-                <div class="ultimas-noticias">
-                </div>
-
-
             </div>
-            <!-- ==================== FIM GRID NOTÍCIAS ==================== -->
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
